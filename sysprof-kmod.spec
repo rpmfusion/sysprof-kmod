@@ -8,7 +8,7 @@
 Name:           sysprof-kmod
 Summary:        Kernel module for sysprof
 Version:        1.0.12
-Release:        1%{?dist}
+Release:        2%{?dist}
 
 Group:          System Environment/Kernel
 License:        GPLv2+
@@ -73,6 +73,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1.0.12-2
+- rebuild for new F11 features
+
 * Wed Feb 11 2009 Gianluca Sforna <giallu gmail com> - 1.0.12-1
 - version update to 1.0.12
 - adapt to rpmfusion akmod
