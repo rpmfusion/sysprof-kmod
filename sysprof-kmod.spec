@@ -8,7 +8,7 @@
 Name:           sysprof-kmod
 Summary:        Kernel module for sysprof
 Version:        1.0.12
-Release:        1%{?dist}.9
+Release:        1%{?dist}.10
 
 Group:          System Environment/Kernel
 License:        GPLv2+
@@ -73,6 +73,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jul 14 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1.0.12-1.10
+- rebuild for new kernels
+
 * Mon Jun 22 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1.0.12-1.9
 - rebuild for new kernels
 
